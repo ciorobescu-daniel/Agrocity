@@ -1,0 +1,216 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 576px) {}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
+
+html {
+    scroll-behavior: smooth;
+  }
+a { 
+    color: inherit; 
+    text-decoration:none;
+} 
+
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    
+    font-family: roboto, sans-serif;
+}
+
+.body {
+    background: #D3CCE3;  
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3); 
+}
+    
+
+
+
+/* Meniul de navigare */
+
+
+
+
+/* Zona de header */
+
+#titlul {
+    font-size: 1.5em;
+}
+
+#culori {
+    
+    background: -webkit-linear-gradient(319deg, #d63230 0%, #f39237 37%, #97cc04 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.header {
+    padding-top: 1em;
+    padding-bottom: 1em; 
+    background: #0f0c29; 
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+    color: whitesmoke;
+}
+
+    .btn {
+        border: 0;
+        box-shadow: silver;
+    }
+
+.col  {
+    padding-left: 30px;
+    font-size: 1em;
+}
+
+.col-nav {
+    padding-right: 30px;
+}
+
+/* Main body */
+
+
+
+/* setari harta */
+.iframe-rwd  {
+    position: relative;
+    padding-bottom: 65.25%;
+    padding-top: 30px;
+    height: 0;
+    
+    }
+.iframe-rwd iframe {
+    position: absolute;
+    top: 8em;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+
+
+/* setarile textului de sub harta */
+  
+.background-descriere {
+    margin: 16px 0;
+    box-shadow: 2px 2px 5px #E6E6E6, 2px 2px 2px #E6E6E6, 2px 2px 2px #E6E6E6;
+    border-radius: 4px;
+    background-image : url(http://api.thumbr.it/whitenoise-361x370.png?background=f2fadaff&noise=f5a36c&density=50&opacity=5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 9em;
+}
+    
+    .content {
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 3em;
+        padding-right: 3em;
+        font-weight: bold;
+        font-style: italic;
+        text-align: center;
+    }
+        
+        
+        
+    
+       
+/* Sectiunea About  */
+
+.about-container {
+    background: #282537;
+    background-image: -webkit-radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
+    background-image: -moz-radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
+    background-image: -o-radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
+    background-image: radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
+    margin-top: 10em;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+#prezentare {
+    text-align: center;
+} 
+    
+
+.pic1 {
+    border-style: inset;
+    border: 1px;
+    border-color: black;
+    
+    
+}
+    
+    
+
+
+/* */
+.footer {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: #7f53ac;
+    background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+    display: inline-block;
+    
+
+}
+
+.logo {
+    padding-left: 4em;  
+    align-items: center;
+}
+    
+.date-contact {
+    list-style: none;
+    padding-left: 5em;
+    
+    
+}
+
+.social-media-icons {
+    list-style: none;
+}
+
+/* ICONS */
+.phone {
+    font-size: 1.5em;
+    padding-bottom: 1em;
+}
+.mail {
+    font-size: 1.5em;
+    padding-bottom: 1em;
+}
+.location {
+    font-size: 1.5em;
+}
+.twitter {
+    padding-bottom: 1em;
+    font-size: 1.5em;
+}
+.facebook {
+padding-bottom: 1em;
+font-size: 1.5em;
+}
+.youtube {
+    font-size: 1.5em;
+} 
+
+    
+
